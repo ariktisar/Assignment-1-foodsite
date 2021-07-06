@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(64, 153, 175);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    background-image: url("images/male/waiter1.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.one-third-width{
+    width:25%;
+    float: left;
+    margin-left: 4.6%;
+    padding-left: 2%;
+    border-radius: 30px;
+
+}
+.one-third-width img{
+    width: 92%;
+
+    border-radius: 18px;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+h2 span{
+    color: rgb(255, 81, 0);
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(30deg, rgb(93, 214, 36), rgb(7, 87, 83));
+    padding: 15px 50px;
+    border-radius: 50px;
+    color: rgb(53, 255, 2);
+    font-weight: 700;
+}
+p{
+    color: rgb(90, 28, 28);
+}
+.about-area div{
+    width:40%;
+    float: right;
+
+}
+.about-area{
+    background-image: url("images/male/bg-male.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20%;
+}
+.recipies{
+    text-align: center;
+    padding-bottom: 3%;
+}
+h2{
+    font-size: 40px;
+}
+.my-recipies-area{
+
+margin-bottom: 3%;
+}
+
+.my-recipies-area p{
+    padding-right: 10%;
+    color: rgb(36, 11, 63);
+text-align:left;
+}
+.my-recipies-area h3{
+    color: rgb(77, 52, 136);
+}
+
+.my-recipies-area div{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    box-shadow: 3px 5px 30px rgb(25, 74, 87);
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.follower-area{
+    margin-left: 4.6%;
+
+    margin-bottom: 80px;
+    box-shadow: 3px 5px 30px rgb(25, 45, 87);
+    height: 40px;
+    width: 90.2%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: cadetblue;
+}
+footer p{
+    color: goldenrod;
+}
+footer{
+    height: 220px;
+    width: 100%;
+    background-color: rgb(30, 68, 68);
+
+    color: rgb(71, 166, 204);
+    text-align: center;
+}
